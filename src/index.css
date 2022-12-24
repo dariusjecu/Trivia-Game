@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-size: 1.25vh;
+  color: #293264;
+  background-color: #F5F7FB;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 70%;
+  margin: 7vh auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.images{
+  display: flex;
+  background-color: #293264;
+}
+
+.first-img, .second-img{
+  position: fixed;
+  justify-self: center;
+  z-index: -1;
+  width: 60vh;
+}
+
+.first-img{
+  right: 0;
+  top: 0;
+  margin-right: -30vh;
+  margin-top: -30vh;
+}
+
+.second-img{
+  bottom: 0;
+  left: 0;
+  margin-bottom: -30vh;
+  margin-left: -30vh;
+}
+
+.answers{
+  display: flex;
+}
+
+.question{
+  padding-bottom: 2em;
+  border-bottom: 1px solid #DBDEF0;
+}
+
+.question h1{
+  margin-bottom: 1em;
+}
+
+.answers button, .check-answers{
+  width: fit-content;
+  height: fit-content;
+  padding: 1em 2em;
+  margin: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #293264;
+  border-radius: 10px;
+  font-size: 1.5vh;
+  border: 1px solid #293264;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.answers button:hover{
+  background-color: #D6DBF5;
+}
+
+.answers button:first-child{
+  margin-left: 0;
+}
+
+.check-answers{
+  margin: 2em 0;
+  align-self: center;
+  background-color: #4D5B9E;
+  color: white;
+  font-size: 2vh;
+}
+
+.start-page{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.start-page h1, .start-page h3{ 
+  margin: 0.25em 0;
+}
+
+.start-page button{
+  margin: 1.5em;
+}
+
+.select{
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.select label{
+  margin-top: .5em;
+  margin-bottom: 0.2em;
+  font-size: 3vh;
+}
+
+.select input, .select select{
+  height: 2.5em;
+  border-radius: 10px;
+  border: 1px solid #293264;
+  color: #293264;
+  padding: 0 1em;
+  font-size: 2vh;
+}
+
+.result{
+  font-size: 2.5vh;
+}
+
+.start-page h1{
+  font-size: 5vh;
+} 
+
+.start-page h3{
+  font-size: 3vh;
+}
