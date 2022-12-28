@@ -138,3 +138,59 @@ body{
 .start-page h3{
   font-size: 3vh;
 }
+
+/*-------------------------Mobile-------------------------*/
+
+@media screen and (max-width: 600px){
+  .container{
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .start-page{
+    font-size: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .select input, .select select{
+    font-size: .9rem;
+  }
+  .question{
+    margin-top: 1rem;
+  }
+  .answers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .answers button{
+    margin: 0;
+  }
+}
+
+/*-------------------------Tablet-------------------------*/
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+  .container{
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .start-page{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .select input, .select select{
+    font-size: 1.5rem;
+  }
+  .question{
+    margin-top: 1rem;
+  }
+  .answers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .answers button{
+    margin: 0;
+    font-size: 1.25rem;
+  }
+}
