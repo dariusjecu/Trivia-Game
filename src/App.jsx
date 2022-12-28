@@ -105,6 +105,7 @@ export default function App() {
     setScore({val: 0, press: false})
     setStartPage(false)
     setBackToStart(false)
+    setCategories({nrQuestions: "10", category: "", difficulty: "", type: ""})
     GenerateQuestions()
   }
 
